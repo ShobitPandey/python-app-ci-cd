@@ -13,7 +13,7 @@ pipeline {
             steps {
                 // Clone the GitHub repository containing your app
                 git 'https://github.com/ShobitPandey/python-app-ci-cd.git'  
-                branch: 'main'
+    branch: 'main'
             }
         }
         
