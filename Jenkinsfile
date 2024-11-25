@@ -12,7 +12,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone the GitHub repository containing your app
-                git 'https://github.com/ShobitPandey/python-app-ci-cd.git'  // Replace with your repository URL
+                git 'https://github.com/ShobitPandey/python-app-ci-cd.git'  
             }
         }
         
