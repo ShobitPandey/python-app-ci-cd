@@ -20,8 +20,8 @@ pipeline {
             steps {
                 script {
                     // Build the Docker image using the Dockerfile
-                   // docker.build(DOCKER_IMAGE)
-                   docker build -t shobitpandey18/python-app-image .
+                    docker.build(DOCKER_IMAGE)
+                   
                 }
             }
         }
