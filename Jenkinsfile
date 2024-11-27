@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        PATH = "/usr/local/bin:${env.PATH}"
         DOCKER_IMAGE = 'shobitpandey18/python-app-image'
+        PATH = "/usr/local/bin:${env.PATH}"
     }
 
     stages {
