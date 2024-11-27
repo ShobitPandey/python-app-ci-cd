@@ -38,7 +38,7 @@ pipeline {
             }
         }
 
-        stage('Push to Docker Hub') {
+        stage('Push the to Docker Hub') {
             steps {
                 script {
                     // Push the built image to Docker Hub
