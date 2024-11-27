@@ -1,9 +1,9 @@
-dpipeline {
+pipeline {
     agent any
 
     environment {
+    
         DOCKER_IMAGE = 'shobitpandey18/python-app-image'
-        PATH = "/usr/local/bin:$PATH"  
     }
 
     stages {
@@ -53,3 +53,4 @@ dpipeline {
         }
     }
 }
+
